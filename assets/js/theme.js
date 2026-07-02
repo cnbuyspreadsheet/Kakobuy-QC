@@ -1,0 +1,1 @@
+(function(){var k='kakobuy-qc-theme';if(localStorage.getItem(k)==='dark')document.documentElement.classList.add('dark-theme');var b=document.querySelector('[data-theme-toggle]');if(b)b.addEventListener('click',function(){document.documentElement.classList.toggle('dark-theme');localStorage.setItem(k,document.documentElement.classList.contains('dark-theme')?'dark':'light')});})();
